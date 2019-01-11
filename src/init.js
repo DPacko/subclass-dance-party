@@ -38,9 +38,5 @@ $(document).ready(function() {
       console.log(window.dancers[i.toString()], 'after for loop');
     }
   })
-  $('.dancer').on('click', function(){
-    $(this).addClass('.sparkler')
-  })
-
 });
 

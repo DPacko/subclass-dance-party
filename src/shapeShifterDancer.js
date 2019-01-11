@@ -28,9 +28,5 @@ ShapeShifterDancer.prototype.pixelRandomizer = function(){
 }
 
 ShapeShifterDancer.prototype.lineup = function() {
-  // loop through window.dancers
-  // console.log(window.dancers['0'].left);
-  // for(let i = 0; i < window.dancers.length; i++){
-  //   // grab
-  // }
+
 }
