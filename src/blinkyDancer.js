@@ -4,7 +4,7 @@ var BlinkyDancer = function(top, left, timeBetweenSteps) {
   // we plan to overwrite the step function below, but we still want the superclass step behavior to work,
   // so we must keep a copy of the old version of this function
    var alreadyHaveOne = false;
-    this.$node.on('mouseover', function(e){
+    this.$node.mouseover(function(e){
     if(!alreadyHaveOne){
       $('<img src="./images/sparkler.gif" />')
         .css({'height': '100px',
@@ -32,5 +32,6 @@ BlinkyDancer.prototype.step = function() {
 
 
 BlinkyDancer.prototype.lineup = function() {
-
+  this.$node.toggle();
+  // setPosition(100);
 }

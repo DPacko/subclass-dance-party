@@ -36,6 +36,9 @@ $(document).ready(function() {
     for(let i = 0; i < window.dancers.length; i++){
       window.dancers[i.toString()].setPosition(100, $("body").width() * Math.random())
       console.log(window.dancers[i.toString()], 'after for loop');
+      // this.dancer.lineup(window.dancers[i.toString()])
+
+
     }
   })
 });
